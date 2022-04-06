@@ -57,7 +57,7 @@ $query=mysqli_query($con,"delete from tblcategory where ID='$catid'");
                         
                         <div class="ibox-content">
                                  <table class="table table-bordered mg-b-0">
-                                    <p style="text-align: center; color: blue;font-size: 30px">Manage Cake Category </p>
+                                    <p style="text-align: center; color: blue;font-size: 30px">Manage Product Category </p>
               <thead>
                 <tr>
                   <th>S.NO</th>

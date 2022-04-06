@@ -9,7 +9,7 @@ $cnt=1;
 while ($row=mysqli_fetch_array($ret)) {
 
 ?>
-                        <a href="tell:+18004567890"><i class="fa fa-phone" aria-hidden="true"></i> + <?php  echo $row['MobileNumber'];?></a>
+                        <a href="tell:+91 9028584243"><i class="fa fa-phone" aria-hidden="true"></i> + <?php  echo $row['MobileNumber'];?></a>
                         <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> <?php  echo $row['Email'];?></a>
                     </div><?php } ?>
                     <div class="float-right">
@@ -21,7 +21,7 @@ $ret1=mysqli_query($con,"select * from tblorders where IsOrderPlaced is null && 
 $num=mysqli_num_rows($ret1);
 
 ?>
-                            <li><a href="cart.php"><i class="lnr lnr-cart"><strong><?php echo $num;?></strong></i></a></li>
+                            <li><a href="cart.php"><i class="lnr lnr-cart"><strong style="padding: 10px"><?php echo $num;?></strong></i></a></li>
 
                             <li><a href="search-cake.php"><i class="fa fa-search"></i></a></li>
                             <li style="color: white;"><a href="admin/index.php">Admin</a></li>
@@ -33,8 +33,8 @@ $num=mysqli_num_rows($ret1);
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <a class="navbar-brand" href="index.php">
-                        <img src="img/logo.png" alt="">
-                        <img src="img/logo-2.png" alt="">
+                        <img src="img/logo (3).png" alt="">
+                        <img src="img/logo (3).png" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="my_toggle_menu">
@@ -49,9 +49,9 @@ $num=mysqli_num_rows($ret1);
                                     <a class="dropdown-toggle"  href="index.php" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
                                    
                                 </li>
-                                <li><a href="cake.php">Our Cakes</a></li>
+                                <li><a href="cake.php">Our Products</a></li>
                                 <li class="dropdown submenu">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cake Category</a>
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Category</a>
                                     <ul class="dropdown-menu">
                                         <?php
               

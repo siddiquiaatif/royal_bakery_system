@@ -125,6 +125,7 @@ while ($row=mysqli_fetch_array($ret)) {
                                                 <div class="col-sm-10">
 <select name="weight" class="form-control white_bg">
     <option value=""><?php  echo $row['Weight'];?></option>
+    <option value="0 gm">0</option>
     <option value="500 gm">500 gm</option>
                                                     <option value="1 kg">1 kg</option>
                                                     <option value="1.5 kg">1.5 kg</option>

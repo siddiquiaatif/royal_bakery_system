@@ -61,7 +61,7 @@ if($query)
         <section class="banner_area">
         	<div class="container">
         		<div class="banner_text">
-        			<h3>Our Cakes</h3>
+        			<h3>Our Products</h3>
         			<ul>
         				<li><a href="index.php">Home</a></li>
         				<li><a href="cake.php">Services</a></li>
@@ -75,8 +75,8 @@ if($query)
         <section class="our_cakes_area p_100">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Our Cakes</h2>
-        			<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h5>
+        			<h2>Our Products</h2>
+        			<h5>Bakery products, which include Maska-Paw, Sweet Donuts, Cream-Rolls, Jam-Rolls, pastries, Dil-Qush, Dil-Pasand, Samosa, Kachori, Egg-Puffs, Veg-Puffs and muffins, are usually prepared from flour or meal derived from some form of grain. Bread, already a common staple in prehistoric times, provides many nutrients in the human diet.</h5>
         		</div>
         		<div class="cake_feature_row row">
 
@@ -110,7 +110,7 @@ while ($row=mysqli_fetch_array($ret)) {
 								<img src="admin/itemimages/<?php echo $row['Image'];?>" width="400" height="180">
 							</div>
 							<div class="cake_text">
-								<h4>$<?php echo $row['ItemPrice'];?></h4>
+								<h4>Rs.<?php echo $row['ItemPrice'];?>/pc</h4>
 								<h3><a href="cake-detail.php?fid=<?php echo $row['ID'];?>"><?php echo $row['ItemName'];?></a></h3>
 								<?php if($_SESSION['fosuid']==""){?>
        								<a href="login.php" class="pest_btn">Add to Cart</a>

@@ -128,7 +128,7 @@ while ($row=mysqli_fetch_array($query)) {
 									<img src="admin/itemimages/<?php echo $row['Image']?>" width="100" height="80" alt="<?php echo $row['ItemName']?>">
 								</td>
 								<td><?php echo $row['ItemName']?></td>
-								<td>$<?php echo $total=$row['ItemPrice']?>
+								<td>Rs.<?php echo $total=$row['ItemPrice']?>
 									<?php 
 $grandtotal+=$total;
 $cnt=$cnt+1; 
@@ -139,7 +139,7 @@ $cnt=$cnt+1;
 									<?php echo $row['Weight']?>
 									</select>
 								</td>
-								<td>$ <?php echo $total ?></td>
+								<td>Rs. <?php echo $total ?></td>
 								<td><a href="cart.php?delid=<?php echo $row['ID'];?>" onclick="return confirm('Do you really want to Delete ?');"><i class="fa fa-trash fa-delete" aria-hidden="true"></i></a></td>
 							</tr><?php $cnt++; } }?>
 							<tr>
@@ -165,11 +165,11 @@ $cnt=$cnt+1;
         						Cart Total
         					</div>
         					<div class="sub_total">
-        						<h5>Sub Total <span>$<?php echo $grandtotal;?>
+        						<h5>Sub Total <span>Rs.<?php echo $grandtotal;?>
                              </span></h5>
         					</div>
         					<div class="total">
-        						<h4>Total <span>$<?php echo $grandtotal;?></span></h4>
+        						<h4>Total <span>Rs.<?php echo $grandtotal;?></span></h4>
         					</div>
         					<div class="cart_footer">
         						<a class="pest_btn" href="checkout.php">Proceed to Checkout</a>

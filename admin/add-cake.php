@@ -129,6 +129,7 @@ else
                                             <div class="form-group row"><label class="col-sm-2 col-form-label">Cake Weight:</label>
                                                 <div class="col-sm-10"><select class="form-control white_bg" required="true" name="weight">
                                                     <option value="">Choose Weight</option>
+                                                    <option value="4 kg">none</option>
                                                     <option value="500 gm">500 gm</option>
                                                     <option value="1 kg">1 kg</option>
                                                     <option value="1.5 kg">1.5 kg</option>

@@ -25,7 +25,7 @@ $query=mysqli_query($con,"delete from tblfood where ID='$catid'");
 <html>
 
 <head>
-    <title>Cake Bakery System|| Manage Cake</title>
+    <title>Royal Bakery System</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -58,7 +58,7 @@ $query=mysqli_query($con,"delete from tblfood where ID='$catid'");
                         
                         <div class="ibox-content">
                                  <table class="table table-bordered mg-b-0">
-                                    <p style="text-align: center; color: blue;font-size: 30px">Manage Cake </p>
+                                    <p style="text-align: center; color: blue;font-size: 30px">Manage Product </p>
               <thead>
                 <tr>
                   <th>S.NO</th>

@@ -75,7 +75,7 @@ if($query)
         <section class="our_cakes_area p_100">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Our Categories wise Cakes</h2>
+        			<h2>Our Categories wise Product</h2>
         			<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h5>
         		</div>
         		<div class="cake_feature_row row">

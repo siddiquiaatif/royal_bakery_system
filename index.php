@@ -22,7 +22,7 @@ if($query)
     
 <head>
         
-        <title>Cake Bakery System|| Home Page</title>
+        <title>Bakery Management System</title>
 
         <!-- Icon css link -->
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -192,8 +192,8 @@ while ($row=mysqli_fetch_array($ret)) {
         		</div>
         		<div class="cake_feature_inner">
         			<div class="main_title">
-						<h2>Our Featured Cakes</h2>
-						<h5> Seldolor sit amet consect etur</h5>
+						<h2>Our Featured Product</h2>
+						<h5> Baked With Luxury</h5>
 					</div>
        				<div class="cake_feature_slider owl-carousel">
        					<?php
@@ -210,7 +210,7 @@ while ($row=mysqli_fetch_array($ret)) {
        								<img src="admin/itemimages/<?php echo $row['Image'];?>" width="400" height="180">
        							</div>
        							<div class="cake_text">
-       								<h4>$<?php echo $row['ItemPrice'];?></h4>
+       								<h4>Rs.<?php echo $row['ItemPrice'];?>/pc</h4>
        								<h3><a href="cake-detail.php?fid=<?php echo $row['ID'];?>"><?php echo $row['ItemName'];?></a></h3>
        								<?php if($_SESSION['fosuid']==""){?>
        								<a href="login.php" class="pest_btn">Add to Cart</a>

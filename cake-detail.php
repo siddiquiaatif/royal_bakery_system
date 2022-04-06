@@ -75,7 +75,7 @@ if($query)
         <section class="special_area p_100">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Detail of Cake</h2>
+        			<h2>Detail of Product</h2>
         			<h5>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</h5>
         		</div>
         		 
@@ -97,9 +97,9 @@ while ($row=mysqli_fetch_array($ret)) {
 							<div class="col-lg-8">
 								<div class="special_item_text">
 									<h4><?php echo $row['ItemName'];?></h4>
-									<p><strong>Type of Cake:</strong><?php echo $row['CategoryName'];?></p>
+									<p><strong>Type of Product:</strong><?php echo $row['CategoryName'];?></p>
 									
-									<p><strong>Price:</strong> $<?php echo $row['ItemPrice'];?></p>
+									<p><strong>Price:</strong> Rs.<?php echo $row['ItemPrice'];?>/pc</p>
 									<p><strong>Weight:</strong> <?php echo $row['Weight'];?>.</p>
 									<p><strong>Product Detail:</strong> <?php echo $row['ItemDes'];?>.</p>
 									<?php if($_SESSION['fosuid']==""){?>

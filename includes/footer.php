@@ -53,7 +53,7 @@ echo "<script>window.location.href ='index.php'</script>";
                     <div class="row footer_wd_inner">
                         <div class="col-lg-3 col-6">
                             <aside class="f_widget f_about_widget">
-                                <img src="img/footer-logo.png" alt="">
+                                <img src="img/royal_bakery.png" height="100px" alt="royal bakery">
 <?php
 
 $ret=mysqli_query($con,"select * from tblpage where PageType='aboutus' ");
@@ -97,9 +97,9 @@ while ($row=mysqli_fetch_array($ret)) {
                                     <h3>Work Times</h3>
                                 </div>
                                 <ul class="list_style">
-                                    <li><a href="#">Mon. :  Fri.: 8 am - 8 pm</a></li>
-                                    <li><a href="#">Sat. : 9am - 4pm</a></li>
-                                    <li><a href="#">Sun. : Closed</a></li>
+                                    <li><a href="#">Mon. :  Fri.: 8 am - 11 pm</a></li>
+                                    <li><a href="#">Sat. : 8am - 11pm</a></li>
+                                    <li><a href="#">All Days : Open</a></li>
                                 </ul>
                             </aside>
                         </div>
@@ -127,7 +127,7 @@ while ($row=mysqli_fetch_array($ret)) {
                 <div class="container">
                     <div class="copyright_inner">
                         <div class="float-left">
-                            <h5><a target="_blank" href="index.php">Cake Bakery System</a></h5>
+                            <h5><a target="_blank" href="index.php">Bakery Management System</a></h5>
                         </div>
                         <div class="float-right">
                             <a href="index.php">Home Page</a>
